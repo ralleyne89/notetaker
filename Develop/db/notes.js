@@ -53,7 +53,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
     return readFileAsync("db/db.json", "utf8");
   }
   write(note) {
-    return fs.writeFileSync("db/db.json", JSON.stringify(note));
+    return writeFileAsync("db/db.json", JSON.stringify(note));
   }
 }
 

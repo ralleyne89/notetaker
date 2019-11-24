@@ -9,6 +9,6 @@ router.get('/notes', function(req, res){
 router.get('*', function(req, res){
     // console.log(path);
     res.sendFile(path.join(__dirname, "../public/index.html"))
-})
+});
 
 module.exports = router;

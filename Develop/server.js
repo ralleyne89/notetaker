@@ -12,15 +12,8 @@ app.use(express.urlencoded({
 app.use(express.static('public'));
 app.use('/', htmlRoutes);
 app.use("/api/", apiRoutes);
-// app.use(require('./htmlRoutes'))
-
-// app.get('/', function(req, res){
-//     res.send('Hi there!')
-// })
 
 
 app.listen(PORT, function(){
     console.log(`app is listening on port: ${PORT}`);
 });
-
-// module.exports = server;
