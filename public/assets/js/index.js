@@ -135,6 +135,10 @@ var renderNoteList = function (notes) {
   $noteList.append(noteListItems);
 };
 
+function nextPage() {
+  location.href = "./public/notes.html";
+}
+
 
 // Gets notes from the db and renders them to the sidebar
 var getAndRenderNotes = function () {
