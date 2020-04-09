@@ -1,7 +1,7 @@
 # Note Taker
 
 
-Deployed site: https://note-pro-app.web.app
+Deployed site: https://note-pro-app.herokuapp.com/
 
 ## Need to take some quick notes on your computer?
 
