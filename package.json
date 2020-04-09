@@ -1,7 +1,7 @@
 {
-  "name": "note-taker",
+  "name": "note-pro",
   "version": "1.0.0",
-  "description": "",
+  "description": "Note taking with express by Reggie Alleyne",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
