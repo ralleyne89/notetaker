@@ -1,17 +1,15 @@
 # Note Taker
 
-[![npm version](https://badge.fury.io/js/express.svg)](https://badge.fury.io/js/express)
-[![npm version](https://badge.fury.io/js/mysql.svg)](https://badge.fury.io/js/mysql)
 
-Deployed site: 
+Deployed site: https://note-pro-app.web.app
 
 ## Need to take some quick notes on your computer?
 
-![start-taking-notes](./home.png)
+![start-taking-notes](./public/img/home.png)
 
 Save all your notes like a pro! Come back and view the notes or delete them.
 
-![see-notes](./notes_page.png)
+![see-notes](./public/img/notes_page.png)
 
 ## Technologies used
 
